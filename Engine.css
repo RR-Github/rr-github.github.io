@@ -1,0 +1,1052 @@
+/* ==================================================
+                      GLOBAL STYLE
+   ================================================== */
+/*
+    The side with the Map should have    width: 100%
+*/
+.LeftView
+{
+}
+
+.RightView
+{
+    width: 100%;
+}
+
+.HeaderText
+{
+    /* This is where you would set the style for "Display results as" in the header */
+}
+
+.ViewNavigation
+{
+    margin: 0px 0px 3px 0px;
+}
+
+.ListingTabPanel
+{
+    text-align: left;
+    width: 100%;
+}
+
+
+@media screen {
+    .FooterPanel
+    {
+       /* background-color: #f4f3f3; */
+        margin-top: 3px;
+        height: 27px;
+    }
+}
+
+@media print {
+    .noPrint {
+        display:none;
+    }
+    .FooterPanel
+    {
+        display:none;
+    }
+}
+
+.MenuItemSpacer { width: 63%; }
+
+.welcomemessage
+{
+    white-space: nowrap;
+    font-family: Arial,sans-serif;
+    font-size: 10pt;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.MenuItemMyProfile
+{
+    width: 67px;
+    height: 27px;
+    background-image: url("/images/MyProfile.png");
+    cursor: pointer;
+}
+
+.MenuItemLogin
+{
+    width: 43px;
+    height: 27px;
+    background-image: url("/images/login.png");
+    cursor: pointer;
+}
+
+.MenuItemLogout
+{
+    width: 51px;
+    height: 27px;
+    background-image: url("/images/logout.png");
+    cursor: pointer;
+}
+
+.MenuItemPrint { width: 24px; height: 24px; background-image: url("/images/printer.png"); cursor: pointer; }
+.MenuItemList-inactive
+{
+    width: 106px;
+    height: 35px;
+     background-image: url("https://my.rcm1.com/files/Lo0PIGLtuoIvl_LVfARDvaira-fEPDdwF0jIr-6F_ecLgBtG5S20sxTkS_Aa6GeP.png");
+    cursor: pointer;
+}
+
+.MenuItemList
+{
+    width: 106px;
+    height: 35px;
+	background-image: url("https://my.rcm1.com/files/Lo0PIGLtuoIvl_LVfARDvQFK3H11BdujOmHqpxp874IKT9tmeMPV3xu64SxLGDx3CJ6-oH_07ajfprTL1-i4BA.png");
+	
+   
+	 background-repeat: no-repeat;
+	 background-position: 0 0px;
+}
+
+.MenuItemMap-inactive
+{
+    width: 106px;
+    height: 35px;
+    background-image: url("https://my.rcm1.com/files/Lo0PIGLtuoIvl_LVfARDvTZRnt7UFeoLB7DRDIkxD9B66L3MGHKPrllL27fUXxWc.png");
+    cursor: pointer;
+}
+
+.MenuItemMap
+{
+     width: 106px;
+    height: 35px;
+	 background-image: url("https://my.rcm1.com/files/Lo0PIGLtuoIvl_LVfARDvcO2vovc_VLU9AFAve_DqjJviEMG6OOmuXhJCbwYVAmJ.png");
+	 background-repeat: no-repeat;
+	 background-position: 0 0px;
+}
+
+/* ==================================================
+                         LIST VIEW
+   ================================================== */
+
+.EnginePanel
+{
+   
+    padding: 3px 3px 3px 3px;
+}
+
+.ContentPanel
+{
+    height: auto !important;
+    overflow-y: hidden !important;
+}
+
+.FilterPanel {
+    height: 25px;
+    overflow: hidden;
+    padding-bottom: 0px;
+	background-color: #015EAC;
+	margin-bottom: 10px;
+	margin-left: 2px;
+	margin-top: 0px;
+	margin-right: 4px;
+	color:#FFF;
+	font-family:Arial, Helvetica, sans-serif;
+    font-size: 8pt; /*   Changed from 10px to 8pt  */
+	text-transform: uppercase;
+	vertical-align:middle;
+	width: 100%;
+	clear: none;
+}
+
+.FilterPanelShort {
+    height: 25px;
+    overflow: hidden;
+    padding-bottom: 0px;
+	background-color: #015EAC;
+	margin-bottom: 10px;
+	margin-left: 2px;
+	margin-top: 0px;
+	margin-right: 4px;
+	color:#FFF;
+	font-family:Arial, Helvetica, sans-serif;
+    font-size: 8pt; /*   Changed from 10px to 8pt  */
+	text-transform: uppercase;
+	vertical-align:middle;
+	width: 100%;
+	clear: none;
+}
+
+.FilterText
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+	text-align:left;
+    font-size: 8pt; /*   Changed from 10px to 8pt  */
+    white-space: nowrap;
+	color: #ffffff;
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-bottom: 4px;
+}
+
+.Filter
+{
+    font-family: Arial, Helvetica, sans-serif;
+	display: inline;
+    font-size: 8pt; /*   Changed from 10px to 8pt  */
+	color:#015EAC;
+}
+
+#btnSearch
+{
+    width: 45px;
+	   background-color: #D6B240;
+    border: 1px solid #666666;
+	color: #4A4A4A;
+    font-family: arial;
+    font-size: 10px;
+	margin-left: 4px;
+	display: inline;
+}
+
+#btnMapShowAll, #btnPageResults
+{
+    font-family: tahoma,arial,helvetica,sans-serif;
+    font-size: 10px;
+    width: 65px;
+}
+
+#FilterProjectState
+{
+    width: 45px;
+}
+
+
+.ListingPanel
+{
+	background-color: #ffffff;
+	padding-bottom: 3px;
+    padding-right: 4px;
+    padding-top: 2px;
+    padding-left: 2px;
+    margin-bottom: 4px;
+    overflow: hidden;
+	background-image:url(https://my.rcm1.com/files/Lo0PIGLtuoIvl_LVfARDveoVjT344dfaH4p_70V9yQye8JiYAYopAKax60_l8sxqxFKZTV240y7JgXbV4l_ivQ.png);
+	background-repeat:repeat-x;
+	background-position:top;
+	border-bottom:1px  dotted #C5bbab;
+    zoom: 1.0;
+
+}
+
+.ListingPanelGray {
+    background-color: #ffffff;
+    padding-bottom: 3px;
+    padding-right: 4px;
+    padding-top: 2px;
+    padding-left: 2px;
+    margin-bottom: 4px;
+    overflow: hidden;
+	background-image:none;
+	border-bottom:1px  dotted #C5bbab;
+	
+}
+
+.HeaderTable
+{
+     background-color: #f4f4f4;
+    color: #015EAC;
+    font-family: Arial;
+    font-size: 10pt;
+    font-weight: bold;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+}
+
+.ProjectName {
+	font-family:Arial;
+	font-size:14px;
+	font-weight: bold;
+    line-height: 25px;
+    margin-left: 10px;
+	margin-top: 20px;
+	color: #015EAC;
+    text-decoration: none;
+	letter-spacing: 0.15em;
+    text-transform: uppercase;
+	background-image:none;
+	background-position:top;
+	background-repeat:repeat-x;
+    white-space: nowrap;
+}
+
+.HeaderPropertyName, a.PropertyNameAnchor
+{
+	margin-left: 9px;
+	margin-left: 7px !ie;
+}
+
+
+
+a.PropertyNameAnchor:link {
+    color:#015EAC;
+}
+a.PropertyNameAnchor:visited   {
+    color:#015EAC;
+}
+a.PropertyNameAnchor:hover   {
+    color:#015EAC;
+}
+a.PropertyNameAnchor:active   {
+    color:#015EAC;
+}
+
+.HeaderPropertyLocation
+{
+    font-family: Arial;
+    font-size: 10pt;
+    color:#015EAC;
+    white-space: nowrap;
+}
+
+.HeaderPropertyStatus
+{
+    font-family: Arial;
+    color:#015EAC;
+    font-size: 10pt;
+    white-space: nowrap;
+}
+
+.ListImageCell
+{
+    width: 120px;
+    height: 90px;
+    padding-left: 0px;
+    padding-right: 0px;
+    white-space: nowrap;
+    vertical-align: top;
+}
+
+.PropertyInfoLabel
+{
+    font-family: Arial;
+   font-size: 11px;
+    color:#4A4A4A;
+    font-weight: bold;
+    white-space: nowrap;
+    text-align: left;
+    vertical-align: top;
+    padding-bottom: 2px;
+}
+
+.Separator
+{
+    font-size: 1px;
+    height: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+.PropertyInfo
+{
+    color: #404040;
+    font-family: Arial;
+    font-size: 11px;
+    font-weight: bold;
+    white-space: nowrap;
+    text-align: left;
+    vertical-align: top;
+    padding-bottom: 2px;
+    width: 100%;
+}
+
+.propinfobox
+{
+    /* margin-left: 124px; */
+	margin-left: 190px;
+    zoom: 1.0;
+}
+
+.propdata
+{
+    font-family: Arial;
+    color: #424242;
+    font-size: 11px;
+		margin-left: 0px\9; 
+	/*margin-left: 65px;*/
+	width: 450 px;
+ margin-bottom: -13px;
+}
+
+.PropertyThumbnail {
+	position: relative;
+	height: 140px;
+	border: none;
+	width: 180px;
+}
+.PropertyThumbnail img {
+	width: 140px;
+	height: 180px;
+	border: none;
+	margin: 0px;
+}
+@media screen and (-webkit-min-device-pixel-ratio:0)
+{
+ .propdata
+ {
+  width: 99%; /*Safari and Google Chrome */
+  margin-left: 0.8px;
+ }
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0)
+{
+.propstatus
+ {
+ /*Safari and Google Chrome */
+  margin-right: 10px;
+ }
+}
+.propstatus
+{
+ float: right; 
+    font-family: Arial;
+   /* white-space: nowrap;*/
+    color: #010101;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+a.ContactAnchor
+{
+    font-size:11px;
+    color:#006699;
+    text-decoration:none;
+}
+
+a.ContactAnchor:link
+{
+    color:#006699;
+}
+
+a.ContactAnchor:visited
+{
+    color:#006699;
+}
+
+a.ContactAnchor:hover
+{
+    color:#006699;
+}
+
+a.ContactAnchor:active
+{
+    color:#006699;
+}
+
+a.ContactAnchor
+{
+    font-size:11px;
+    color:#006699;
+    text-decoration:none;
+}
+
+a.ContactAnchor:link
+{
+    color:#006699;
+}
+
+a.ContactAnchor:visited
+{
+    color:#006699;
+}
+
+a.ContactAnchor:hover
+{
+    color:#006699;
+}
+
+a.ContactAnchor:active
+{
+    color:#006699;
+}
+
+.contacts
+{
+    /* white-space: nowrap; */
+	
+    float: left;
+    vertical-align: top;
+    text-align: right;
+    padding-bottom: 10px;
+	font-size:10px;
+	/* font-weight:bold; */
+	color:#333333;
+	 line-height: 18px;
+}
+
+/* ************************************************************ */
+/************** EXPANDING SUMMARY BOX CODE HERE!!!***************/
+/* *********************<---BEGIN--->************************** */
+.summary
+{
+    margin-top: 0px;
+    text-align: justify;
+	color: #4A4A4A;
+    float: left;
+    font-family: Arial;
+    font-size: 10px;
+    font-weight: normal;
+	-o-transition: all 1.5s;  /* ******ONLY THESE THREE LINES******* */
+	-moz-transition: all 1.5s;  /* ******FROM .SUMMARY STYLE ARE FOR ******* */
+	-webkit-transition: all 1.5s;  /* ******EXPANDING SUMMARY BOX CODE******* */
+}
+
+.tran2 
+{ 
+	-o-transition: all 2s;
+	-moz-transition: all 2s;
+	-webkit-transition: all 2s;	
+}
+
+#sumnav { border: none; background-color: #fff;  }
+#sumnav:hover { border: none; background-color: #F5F5F5; }
+#sumnav h2 { display: inline; vertical-align: middle; font-family:Arial, Helvetica, sans-serif; }
+
+.hide, .show  { display: none;  font-size: 100%; vertical-align: middle; }
+
+@media all and (min-width:1px) { .hide, .show  { display: inline; } }
+
+a.hide:focus + .show { display: inline; }
+.show { display: none; }
+a.hide:focus { display: none; }
+
+#summarymenu { opacity: 0; height: 0em; }
+a.hide:focus ~ #summarymenu { opacity: 1; height:auto; margin-top: 0em; width: auto; overflow: hidden;}
+
+@media print {
+.hide, .show  { display: none; } 
+#sumnav {position: static; border: none; width: auto;}
+#summarymenu {width: auto;} 
+}
+
+/* ************************************************************ */
+/************** EXPANDING SUMMARY BOX CODE HERE!!!***************/
+/* *********************<---END--->************************** */
+
+.TypeLocation
+{
+
+}
+
+.ContactInfo
+{
+    font-family: Arial;
+    font-size: 8pt;
+    text-align: right;
+    white-space: nowrap;
+    vertical-align: top;
+    padding-bottom: 2px;
+}
+
+.PropertySummary
+{
+    font-family: Arial;
+	font-weight: bold;
+    font-size: 11px;
+    text-align: left;
+    vertical-align: bottom;
+    color:#4A4A4A;
+    padding-top: 3px;
+}
+
+
+.FooterPanelText
+{
+   
+  font-family: Arial;
+    font-size: 11px;
+    font-weight: bold;
+    height: 1em;
+    margin-left: 57px;
+    margin-top: 10px;
+    top: 50%;
+	color: #000000;
+}
+
+/* a.PoweredByLink {
+font-size:10px;
+margin-right: 10px;
+} */
+
+a.PoweredByLink:link {
+    color:#006699;
+	font-size:11px;
+	text-decoration:none;
+}
+a.PoweredByLink:visited   {
+    color:#006699;
+}
+a.PoweredByLink:hover   {
+    color:#006699;
+}
+a.PoweredByLink:active   {
+    color:#006699;
+}
+
+#paging
+{
+     top: -17px;
+    position: relative;
+    width: 900px;
+    line-height: 1.5em;
+}
+
+#pnlPagerTotals
+{
+   color:#000000;
+    float: right;
+    font-family: Arial;
+    font-size:11px;
+   font-weight: bold;
+    margin-right: 10px;
+}
+
+#ListingsDataPager
+{
+    vertical-align: top;
+    font-family:arial,sans-serif;
+    font-size:15px;
+    margin-left: 10px;
+}
+
+.forceblack
+{
+	color: #000 !important;
+}
+
+.pager-command-btn
+{
+    padding:0px 0px;
+	vertical-align:middle;
+}
+.pager-command, .pager-current
+{
+    color:#5a90ce;
+    padding:0px 4px;
+    text-decoration:none;
+    border:none;
+	font-size: 1.0em;
+}
+A.pager-command:hover
+{
+    color:#fff;
+    text-decoration:none;
+	font-size: 1.0em;
+}
+.pager-current
+{
+    border:none;
+    font-weight:bold;
+    color:#3e3e3e;
+    font-size: 1.0em;
+}
+
+a.pager-command:link
+{
+    font-size: 1.0em;
+}
+
+/* ==================================================
+                         MAP VIEW
+   ================================================== */
+.MapViewPanel
+{
+    position:relative;
+    width: 100%;
+       height: 525px; 
+	
+}
+
+.MapListPanel
+{
+    width: 0px;
+    display: none;
+    visibility: hidden;
+
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 525px; 
+	
+}
+
+.MapListSeparator
+{
+    background-color: #CCCCCC;
+    width: 270px;
+    height: 3px;
+}
+
+.RcmMiniPinStyle
+{
+    background: url("/images/RcmMiniPin.gif") no-repeat 0 0 ;
+    height:20px;
+    width:20px;
+    color:#fff;
+    text-align:center;
+    font: bold 10px Arial;
+    cursor: pointer;
+}
+
+.RcmPinStyle
+{
+    position:relative;
+    background: url("/images/RcmPin.gif") no-repeat 0 0;
+    width:27px;
+    height:26px;
+    color:#fff;
+    text-align:center;
+    font: bold 12px Arial;
+    cursor: pointer;
+}
+
+.RcmPinStyle .text
+{
+    position: relative;
+    top: 2px;
+}
+
+.RcmClusteredPinStyle
+{
+    position:relative;
+    background: url("/images/RcmClusteredPin.png") no-repeat 0 0;
+    height:30px;
+    width:28px;
+    top:-15px;
+    color:#fff;
+    text-align:center;
+    font: bold 12px Arial;
+    cursor: pointer;
+}
+
+.RcmClusteredExpandedPinStyle
+{
+    position:relative;
+    background: url("/images/RcmClusteredExpandedPin.png") no-repeat 0 0;
+    height:30px;
+    width:28px;
+    top:-15px;
+    color:#fff;
+    text-align:center;
+    font: bold 12px Arial;
+    cursor: pointer;
+}
+
+.MapListHeader
+{
+    height:25px;
+    vertical-align: middle;
+    font-family: Calibri;
+    font-size: 10pt;
+    white-space: nowrap;
+    color: #FFFFFF;
+}
+
+.MapPinDescriptionLoading
+{
+    width: 440px;
+    height: 50px;
+}
+
+.MapPinDescription
+{
+    width: 440px;
+}
+
+a.MapPropertyNameAnchor2:link {
+    color:#0000FF;
+    text-decoration: none;
+}
+a.MapPropertyNameAnchor2:visited   {
+    color:#CCCCCC;
+    text-decoration: none;
+}
+a.MapPropertyNameAnchor2:hover   {
+    color:#CCCCCC;
+    text-decoration: none;
+}
+a.MapPropertyNameAnchor2:active   {
+    color:#CCCCCC;
+    text-decoration: none;
+}
+
+.PropertyLocation
+{
+    font-family: Calibri;
+    font-weight: bold;
+    font-size: 10pt;
+    text-align: left;
+    white-space: nowrap;
+    vertical-align: bottom;
+}
+
+.i {
+    border: 1px solid #006F98;
+    height: 140px;
+    width: 180px;
+}
+
+.labelcol {
+    border: 0 none;
+    font-weight: bold;
+    line-height: 18px;
+    vertical-align: top;
+  /*  white-space: nowrap;*/
+	width: 200px;
+	width: auto !ie;
+	width: 220px !ie9;
+	 
+}
+
+.labels {
+    color: #4A4A4A;
+    float: left;
+    font-family: Arial;
+    font-size: 11px;
+    font-weight: bold;
+   width: 60px !important; 
+	white-space: nowrap;
+}
+
+.labels2 {
+    color: #404040;
+    font-family: Arial;
+    font-size: 11px;
+	font-weight: bold;
+	white-space: nowrap;
+	/* width:289px; */
+}
+
+a.PropertyNameAnchor2:link {
+    color: #006699;
+	text-decoration: none;
+}
+
+
+.HeaderPropertyName2 {
+ color: #006699;
+    font-family: Arial;
+    font-size: 10pt;
+    font-weight: bold;
+    white-space: nowrap;
+
+}
+
+
+
+img#email-img {margin-left:20px;}
+
+/*#ListingsDataPager {
+	display:block;
+	text-align:left;
+	height:22px;
+	 line-height: 1.5em;
+	clear:both;
+	margin-top:3px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:normal;
+}
+
+#ListingsDataPager a:link, #ListingsDataPager a:visited{
+	padding:7px;
+	padding-top:2px;
+	padding-bottom:2px;
+	
+	text-decoration:none;
+	background-color:#FFF;
+	color:#004463;
+	width:22px;
+	font-weight:normal;
+}
+
+#ListingsDataPager a:hover {
+	background-color:#DDEEFF;
+	color:#0072BC;	
+}
+
+#ListingsDataPager .pager-current  {
+	padding:7px;
+	padding-top:2px;
+	padding-bottom:2px;
+	border:1px solid #dfdfdf;
+	text-decoration:none;
+	background-color:#f4f3f3;
+	color:#004463;
+	cursor:default;
+}
+
+ #tnt_pagination .disabled_tnt_pagination {
+	padding:7px;
+	padding-top:2px;
+	padding-bottom:2px;
+	border:1px solid #EBEBEB;
+	margin-left:10px;
+	text-decoration:none;
+	background-color:#F5F5F5;
+	color:#D7D7D7;
+	cursor:default;
+} */
+
+.infobox-body {
+    background-color: White;
+    border: 1px solid black;
+    line-height: 1em;
+    padding: 4px;
+}
+
+#pnlMapView {
+height:444px !important;
+
+}
+
+/* #paging
+{
+    top: -17px;
+    position: relative;
+    width: 900px;
+    line-height: 1.5em;
+}
+
+#pnlPagerTotals
+{
+    color:#4a4a4a;
+    float: right;
+    font-family: arial,sans-serif;
+    font-size:11px;
+    font-weight: bold;
+	height: 1em;
+    margin-right: 0px;
+}
+
+#ListingsDataPager
+{
+    vertical-align: top;
+    font-family:arial,sans-serif;
+    font-size:15px;
+    margin-left: 10px;
+}
+
+.forceblack
+{
+    color: #000 !important;
+}
+
+.pager-command-btn
+{
+    padding:0px 0px;
+    vertical-align:middle;
+}
+
+.pager-command, .pager-current
+{
+    color:#5a90ce;
+    padding:0px 4px;
+    text-decoration:none;
+    border:none;
+    font-size: 1.0em;
+}
+
+A.pager-command:hover
+{
+    color:#0C2074;
+    text-decoration:none;
+    font-size: 1.0em;
+}
+
+.pager-current
+{
+    border:none;
+    font-weight:bold;
+    color:#3e3e3e;
+    font-size: 1.0em;
+}
+
+a.pager-command:link
+{
+    font-size: 1.0em;
+} */
+
+#rcmPaging
+{
+    top:50%; 
+    height:1em; 
+    margin-top:0.50em;
+}
+
+#rcmPaging .rcmPagingFirst
+{
+	background-image: url("https://my.rcm1.com/files/5YYESQ5E_Cza3rr516wEYLu5MbpzR9NzV6RVuBba7nx8WS7lRADu9mpfEcZLnoNP.png");
+    cursor: pointer;
+	width: 16px;
+	height: 16px;
+	margin: 1px;
+}
+#rcmPaging .rcmPagingPrev
+{
+	background-image: url("https://my.rcm1.com/files/5YYESQ5E_Cza3rr516wEYISBS9lAFMkEQJjCZEVWEOYg8iLnqsTNbi1E8w4OLLDq.png");
+    cursor: pointer;
+	width: 16px;
+	height: 16px;
+	margin: 1px;
+}
+#rcmPaging .rcmPagingNext
+{
+	background-image: url("https://my.rcm1.com/files/5YYESQ5E_Cza3rr516wEYFOluRc-fxUYLTzRlC7_WROr0uhegGNnsVDiip-cQSDt.png");
+    cursor: pointer;
+	width: 16px;
+	height: 16px;
+	margin: 1px;
+}
+#rcmPaging .rcmPagingLast
+{
+	background-image: url("https://my.rcm1.com/files/5YYESQ5E_Cza3rr516wEYAB14BNxOOxWBAo6BM0NeqU_sks472T4T9nkZEOZQlsr.png");
+    cursor: pointer;
+	width: 16px;
+	height: 16px;
+	margin: 1px;
+}
+#rcmPaging .rcmPagingGotoPageText
+{
+	width: 25px;
+	  background-color: #C7E0F3;
+    border: 1px solid #DDDDDD;
+   
+    width: 25px;
+}
+
+#rcmPaging .rcmPagingGotoPage, #rcmPaging .rcmPageSize, #rcmPaging .rcmPagingGotoPageText {
+
+color: #4A4A4A;
+    font-family: arial;
+    font-size: 11px;
+}
+
+#rcmPaging .rcmPageSize
+{
+
+	margin-left: 15px;
+}
+
+#rcmPaging #rcmPagingPageSize
+{
+	width: 45px;
+}
+
+
+#pnlPagerTotals
+{
+    float: right;
+    top:50%; 
+    height:1em; 
+    margin-top:0.75em;
+	
+}
+
